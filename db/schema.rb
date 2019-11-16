@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2019_11_06_101959) do
     t.integer "year"
     t.string "make"
     t.string "model"
-    t.string "type"
+    t.string "style"
     t.string "transmission"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
